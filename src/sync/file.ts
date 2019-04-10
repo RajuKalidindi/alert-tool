@@ -18,7 +18,9 @@ export function syncFile(answers: Answers) {
       if (err) throw err;
       const lastLine = Buffer.from(data).toString().split('\n');
       const checkValue = lastLine[lastLine.length - 2];
-      if (checkValue === 'yes') {
+      console.log(checkValue.trim());
+      if (checkValue.trim() === 'Flame Detected') {
+        console.log('I was here');
         sendMessage("Fire Fire, go out")
       }
     });
