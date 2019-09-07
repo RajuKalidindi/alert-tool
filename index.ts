@@ -4,7 +4,7 @@
 /*
   Import modules
 */
-
+require('dotenv').config()
 import program = require("commander");
 import figlet = require("figlet");
 import { prompt } from "inquirer";

@@ -1,5 +1,5 @@
 var Slack = require('slack-node');
-var webhookUri = "https://hooks.slack.com/services/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";
+var webhookUri = process.env.WEBHOOK_URI;
 
 var channel = "#website";
 var username = "AlertBot";

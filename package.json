@@ -33,6 +33,7 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.15.1",
+    "dotenv": "^8.1.0",
     "figlet": "^1.2.1",
     "gulp": "^4.0.0",
     "gulp-sourcemaps": "^2.6.4",
