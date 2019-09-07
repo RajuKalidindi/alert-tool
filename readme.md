@@ -1,16 +1,24 @@
-# FIRE ALERT SYSTEM 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/30723201/64477638-ac38bd80-d1bb-11e9-91d4-8a33f3ef833c.png" />
+</p>
 
-Made by pro guy @knrt10
+> Fire alert tool
 
 ### Intital setup
 
-- Clone this bitch
+- Clone this repo
 
 - run `npm i`
 
 - run `npm run build`
 
 - run `npm link`
+
+### About
+
+- For abstract [check here](https://github.com/knrt10/alert-tool/blob/master/abstract.docx) 
+
+- For report [check here](https://github.com/knrt10/alert-tool/blob/master/report.docx) 
 
 ### Usage
 
